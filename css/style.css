@@ -3,6 +3,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1110px;
@@ -40,6 +45,7 @@ body {
   position: relative;
   border-right: 1px solid #FFFFFF;
   height: 51px;
+  width: 51px;
   padding-right: 10px;
 }
 
@@ -176,11 +182,13 @@ body {
 .card-img {
   width: 87px;
   height: 87px;
+
 }
 
 .card-title {
   font-weight: 400;
   color: #2C2C2C;
+  text-align: center;
 }
 
 .card-title span {
@@ -376,7 +384,7 @@ body {
 }
 
 .menu-item {
-  width: 33.3%;
+  max-width: 33.3%;
   background-color: #fff;
   padding: 80px 60px 30px 60px;
   position: relative;
@@ -451,7 +459,7 @@ body {
 }
 
 .comment-img {
-   text-align: center;
+  text-align: center;
 }
 
 .comment-image {
@@ -463,6 +471,7 @@ body {
   font-weight: 600;
   font-size: 20px;
 }
+
 .comment-name {
   text-align: center;
   font-size: 20px;
@@ -490,7 +499,7 @@ body {
   display: grid;
   gap: 30px;
   grid-template-areas: 'i1 i1 i4 i5'
-  'i2 i3 i6 i6';
+    'i2 i3 i6 i6';
   margin-bottom: 100px;
 }
 
@@ -529,4 +538,380 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+
+@media (max-width: 1300px) {
+  .header-title {
+    padding-top: 180px;
+  }
+
+  .card {
+    margin-top: -7%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1150;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header-title {
+    padding-top: 150px;
+  }
+
+  .card {
+    margin-top: -5%;
+  }
+
+  .burger-text {
+    font-size: 22px;
+  }
+
+  .menu-items {
+    gap: 20px;
+  }
+
+  .menu-item {
+    max-width: 20%;
+  }
+
+  .burger-text {
+    margin-left: 20px;
+  }
+
+  .burgers-items {
+    margin-left: 20px;
+  }
+
+  .gallery-items,
+  .coock-items {
+    gap: 20px;
+  }
+
+  .gallery,
+  menu,
+  .black-block,
+  .history {
+    padding-top: 40px;
+  }
+
+  .dishes-title,
+  .black-block,
+  .menu-items {
+    margin-bottom: 60px;
+  }
+
+  .menu-items {
+    margin-top: 60px;
+  }
+
+
+}
+
+@media (max-width: 1024px) {
+  .burger-item {
+    margin-bottom: 20px;
+  }
+
+  .burger-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 950px) {
+
+  .header-title {
+    padding-top: 121px;
+  }
+
+  .burgers {
+    flex-direction: column;
+  }
+
+  .burgers-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .burger-item {
+    justify-content: center;
+  }
+
+  .burger-text {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 850px) {
+  .nav-link {
+    margin-right: 15px;
+    font-size: 12px;
+  }
+
+  .btn {
+    padding: 8px;
+  }
+
+  .button {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 26px;
+  }
+
+  .card-desc {
+    font-size: 20px;
+  }
+
+  .history-holder {
+    gap: 5px;
+
+  }
+
+  .history-title,
+  .dishes-title,
+  .menu-title,
+  .gallery-title,
+  .coock-title {
+    font-size: 42px;
+  }
+
+  .history-left {
+    width: 400px;
+  }
+
+  .number-item span {
+    font-size: 32px;
+  }
+
+  .left {
+    width: 600px;
+  }
+
+  .black-text {
+    font-size: 36px;
+  }
+
+  .black-descr {
+    font-size: 20px;
+  }
+
+  .menu {
+    margin-top: 50px;
+  }
+
+  .menu-item {
+    max-width: 33%;
+    padding: 40px 20px 20px 20px;
+  }
+
+  .price {
+    font-size: 22px;
+  }
+
+  .price::after {
+    width: 60px;
+    height: 60px;
+    padding: 13px 9px;
+  }
+}
+
+@media (max-width: 740px) {
+
+  .header-logo img {
+    width: 50%;
+  }
+
+  .nav-link {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+
+  .cart {
+    width: 30px;
+  }
+
+  .phone {
+    max-width: 130px;
+  }
+
+  .num {
+    font-size: 12px;
+  }
+
+  .phone-text {
+    font-size: 10px;
+  }
+
+  .button {
+    font-size: 10px;
+  }
+
+  .cards {
+    gap: 8px;
+  }
+
+  .card {
+    margin-top: -15%;
+  }
+
+  .history-right img {
+    width: 50%;
+  }
+
+  .history-right::after {
+    top: 57px;
+    right: 35px;
+  }
+
+  .history-img1 {
+    top: 37%;
+    left: 17px;
+  }
+
+  .history-img2 {
+    top: 57px;
+    left: 38%;
+  }
+
+  .menu {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .menu-img {
+    width: 90%;
+  }
+
+  .left {
+    width: 500px;
+  }
+
+  .comments {
+    padding: 50px 0 55px 0;
+  }
+
+  .burger {
+    display: none;
+  }
+}
+
+@media (max-width: 630px) {
+  .burger {
+    display: block;
+  }
+
+  .nav,
+  .cart,
+  .phone,
+  .btn {
+    display: none;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;
+    min-height: 276px;
+    margin-top: 0;
+  }
+
+  .card:first-child {
+    margin-top: -20%;
+  }
+
+  .history-holder {
+    flex-direction: column;
+  }
+
+  .history-number {
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+  }
+
+  .history-left {
+    width: 100%;
+  }
+
+  .history-right img {
+    position: relative;
+    max-width: 32%;
+  }
+
+  .history-img2 {
+    left: -1%;
+  }
+
+  .history-img3 {
+    left: -7%;
+    bottom: 5%;
+  }
+
+  .burger-text {
+    font-size: 16px;
+  }
+
+  .menu-items,
+  .coock-items {
+    flex-direction: column;
+  }
+
+  .menu-item {
+    max-width: 100%;
+    padding: 60px 30px 30px 30px;
+  }
+
+  .price::after {
+    width: 100px;
+    height: 100px;
+    padding: 30px 26px;
+    right: 60px;
+  }
+
+  .gallery-items {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    grid-template-areas: 'i1''i2''i3''i4''i5''i6';
+  }
+
+  .gallery-item {
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .coock-items {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coock-item {
+    display: block;
+  }
+
+  .black-content {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right .btn {
+    display: block;
+    font-size: 14px;
+  }
+
 }
