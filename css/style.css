@@ -149,5 +149,47 @@ body {
   padding-left: 28px;
   padding-right: 28px;
   max-width: 130px;
- margin: 21px auto 0 auto; 
+  margin: 21px auto 0 auto;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+ 
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  min-height: 330px;
+  padding: 30px 10px 5px 10px;
+  font-family: 'Tinos';
+  font-size: 26px;
+  background-color: #fff;
+  margin-top: -10%;
+  z-index: 100;
+}
+
+.card-img {
+  width: 87px;
+  height: 87px;
+}
+
+.card-title {
+  font-weight: 400;
+  color: #2C2C2C;
+}
+
+.card-title span {
+  color: #BC9060;
+}
+
+.card-desc {
+  color: #656363;
+  margin: 0 10px;
+  text-align: center;
+  font-weight: 400;
 }
