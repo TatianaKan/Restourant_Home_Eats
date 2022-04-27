@@ -358,6 +358,7 @@ body {
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 220px;
+  margin-top: 100px;
 }
 
 .menu-title {
@@ -465,4 +466,67 @@ body {
 .comment-name {
   text-align: center;
   font-size: 20px;
+}
+
+.gallery {
+  padding-top: 55px;
+}
+
+.gallery-title,
+.coock-title {
+  font-family: 'Tinos';
+  font-weight: 400;
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.gallery-title span,
+.coock-title span {
+  color: #D67E34;
+}
+
+.gallery-items {
+  display: grid;
+  gap: 30px;
+  grid-template-areas: 'i1 i1 i4 i5'
+  'i2 i3 i6 i6';
+  margin-bottom: 100px;
+}
+
+.gallery-item1 {
+  grid-area: i1;
+}
+
+.gallery-item2 {
+  grid-area: i2;
+}
+
+.gallery-item3 {
+  grid-area: i3;
+}
+
+.gallery-item4 {
+  grid-area: i4;
+}
+
+.gallery-item5 {
+  grid-area: i5;
+}
+
+.gallery-item6 {
+  grid-area: i6;
+}
+
+.coock-items {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.footer {
+  background-image: url('../image/footer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
