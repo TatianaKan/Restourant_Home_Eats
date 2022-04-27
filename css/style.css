@@ -284,3 +284,70 @@ body {
   z-index: 10;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.black-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.black-block {
+  background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8519782913165266) 100%), url('../image/blockblack.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 130px;
+}
+
+.left {
+  width: 700px;
+}
+
+.black-text {
+  font-family: 'Tinos';
+  color: #D67E34;
+  font-size: 52px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.black-descr {
+  margin-top: 0;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.dishes-title {
+  font-family: 'Tinos';
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.dishes-title span {
+  color: #D67E34;
+}
+
+.burgers {
+  display: flex;
+  justify-content: center;
+}
+
+.burgers-items {
+  margin-left: 30px;
+}
+
+.burger-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.burger-text {
+  font-family: 'Tinos';
+  font-size: 26px;
+  font-weight: 400;
+  margin-left: 30px;
+}
