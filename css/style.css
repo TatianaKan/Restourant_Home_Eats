@@ -351,3 +351,87 @@ body {
   font-weight: 400;
   margin-left: 30px;
 }
+
+.menu {
+  background-image: url('../image/menubg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.menu-title {
+  font-family: 'Tinos';
+  font-size: 54px;
+  color: #FFFFFF;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.menu-items {
+  display: flex;
+  gap: 30px;
+  margin-top: 140px;
+}
+
+.menu-item {
+  width: 33.3%;
+  background-color: #fff;
+  padding: 80px 60px 30px 60px;
+  position: relative;
+}
+
+.menu-item1::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: 'RECOMMENDED';
+  background-color: #D67E34;
+  font-size: 13px;
+  padding: 11px;
+}
+
+.menu-img {
+  border-radius: 50%;
+}
+
+.price {
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+  position: relative;
+  color: #fff;
+}
+
+.price::after {
+  content: '420';
+  width: 100px;
+  height: 100px;
+  padding: 27px 25px;
+  background: #D67E34;
+  border: 7px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 35px;
+  right: 0;
+  z-index: 100;
+}
+
+.menu-text {
+  font-family: 'Tinos';
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.menu-descr {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.btn-menu {
+  text-align: center;
+  background: #D67E34;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
